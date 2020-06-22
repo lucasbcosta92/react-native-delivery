@@ -43,7 +43,7 @@ const Orders: React.FC = () => {
     }
 
     loadOrders();
-  }, [orders]);
+  }, []);
 
   return (
     <Container>
